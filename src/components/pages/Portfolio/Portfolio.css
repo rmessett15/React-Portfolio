@@ -1,0 +1,19 @@
+div#project {
+    display:flex;
+    height: 23vh;
+    background-image: url(../../../images/DudeWheresMyShow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#project:hover {
+    filter: blur(4px);
+}
+
+#projTitle {
+    display: hidden !important;
+}
+
+/* :global(#project:hover)#project h2 {
+    visibility: visible;
+} */

@@ -4,9 +4,12 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
 
+
 // export default function Footer() {
 //   return <p>I am the footer</p>;
 // }
+
+
 
 const Footer = () => {
     return (
@@ -14,6 +17,7 @@ const Footer = () => {
         <Grid container sx={{ color: "text.primary" }}>
           <Grid item xs={4}>
             <LinkedInIcon
+              sx={{ fontSize: 70}}
               onClick={(event) =>
                 (window.location.href =
                   "https://www.linkedin.com/in/ryan-messett/")
