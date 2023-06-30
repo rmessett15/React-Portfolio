@@ -4,7 +4,7 @@ import "./App.css";
 // import OrangeBoxes from "./components/orangeBoxes";
 import PortfolioContainer from "./components/PortfolioContainer";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 
 const App = () => (
   <>
