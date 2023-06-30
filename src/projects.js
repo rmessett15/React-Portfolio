@@ -2,7 +2,7 @@ export const projects = [
   {
     projectTitle: "Dude Where's My Show",
     description:
-      "A client-side web application for searching the streaming availability of movies and tv shows.",
+      "A client-side web application for searching the streaming availability of movies and tv shows. Find your next show here!",
     imageLink:
       "https://user-images.githubusercontent.com/120127903/249894349-0480baf8-f6cf-454a-9267-abb883327ba1.png",
     liveLink: "https://eeast.github.io/Dude-Wheres-My-Show/",
@@ -29,7 +29,7 @@ export const projects = [
   {
     projectTitle: "Code Quiz",
     description:
-      "A simple web-application where users can come test their knowledge about coding.",
+      "A simple web-application where users can come test their knowledge about coding. Find out if you're up to the test.",
     imageLink:
       "https://user-images.githubusercontent.com/120127903/250159663-da19d91f-765b-460f-ba19-811feb8b94d6.png",
     liveLink: "https://rmessett15.github.io/Coding-Quiz/",
@@ -47,7 +47,7 @@ export const projects = [
   {
     projectTitle: "My First Website",
     description:
-      "The first website I designed and deployed to the worldwide web.",
+      "The first website I designed and deployed to the worldwide web. My web development journey started right here!",
     imageLink:
       "https://user-images.githubusercontent.com/120127903/250159711-eb5907ee-46ca-4291-8a3d-89e8dd43df4f.png",
     liveLink: "https://rmessett15.github.io/My-First-Website/",
