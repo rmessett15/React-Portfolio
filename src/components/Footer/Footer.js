@@ -3,6 +3,7 @@ import Grid from "@mui/material/Grid";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
+import "./Footer.css";
 
 
 // export default function Footer() {
@@ -17,6 +18,7 @@ const Footer = () => {
         <Grid container sx={{ color: "text.primary" }}>
           <Grid item xs={4}>
             <LinkedInIcon
+              id="icon"
               sx={{ fontSize: 50 }}
               onClick={(event) =>
                 (window.location.href =
@@ -24,12 +26,14 @@ const Footer = () => {
               }
             />
             <GitHubIcon
+              id="icon"
               sx={{ fontSize: 50 }}
               onClick={(event) =>
                 (window.location.href = "https://github.com/rmessett15")
               }
             />
             <EmailIcon
+              id="icon"
               sx={{ fontSize: 50 }}
               onClick={(event) =>
                 (window.location.href = "mailto:rmessett15@gmail.com")

@@ -11,7 +11,7 @@ export default function About() {
       </div>
 
       <div>
-        <h1>About Me</h1>
+        <h1 id="about-me-title">About Me</h1>
         <p>
           Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
           Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed

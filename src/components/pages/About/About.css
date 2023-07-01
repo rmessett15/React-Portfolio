@@ -10,3 +10,8 @@
     max-width: 100%;
     height: auto;
 }
+
+#about-me-title {
+    display: flex;
+    justify-content: center;
+}
