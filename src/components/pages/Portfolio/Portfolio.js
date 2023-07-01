@@ -11,20 +11,9 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { projects } from "../../../projects";
 
-export default function Work() {
+export function Project ({project}) {
   return (
-    <div>
-      <h1>Portfolio</h1>
-      <Grid
-        container
-        spacing={{ xs: 2, md: 3 }}
-        columns={{ xs: 4, sm: 8, md: 12 }}
-      >
-        {Array.from(Array(6)).map((_, index) => (
-          <Grid item xs={2} sm={4} md={4} key={index}></Grid>
-        ))}
-        {projects.map((project, i) => (
-          <Grid item xs={4}>
+              <Grid item xs={4}>
             {/* <div id="project">
             <h2 id="projTitle">Dude Where's My Show</h2>
           </div> */}
@@ -53,6 +42,23 @@ export default function Work() {
               </CardActions>
             </Card>
           </Grid>
+  )
+}
+
+export default function Work() {
+  return (
+    <div>
+      <h1>Portfolio</h1>
+      <Grid
+        container
+        spacing={{ xs: 2, md: 3 }}
+        columns={{ xs: 4, sm: 8, md: 12 }}
+      >
+        {Array.from(Array(6)).map((_, index) => (
+          <Grid item xs={2} sm={4} md={4} key={index}></Grid>
+        ))}
+        {projects.map((project) => (
+          <Project project={project}/>
         ))}
       </Grid>
     </div>

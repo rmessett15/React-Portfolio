@@ -1,32 +1,20 @@
-import React, { useState } from "react";
-import Navigation from "./Navigation";
+import React, { useState, useEffect } from "react";
+import Navigation from "./Navigation/Navigation";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import Portfolio from "./pages/Portfolio/Portfolio";
 
-export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("About");
+export default function PortfolioContainer({currentPage, setCurrentPage}) {
 
-  const renderPage = () => {
-    if (currentPage === "About") {
-      return <About />;
-    }
-    if (currentPage === "Contact") {
-      return <Contact />;
-    }
-    if (currentPage === "Resume") {
-      return <Resume />;
-    }
-    return <Portfolio />;
-  };
-
-  const handlePageChange = (page) => setCurrentPage(page);
-
-  return (
-    <div>
-      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
-    </div>
-  );
+     if (currentPage === "About") {
+       return <About />;
+     }
+     if (currentPage === "Contact") {
+       return <Contact />;
+     }
+     if (currentPage === "Resume") {
+       return <Resume />;
+     }
+     return <Portfolio />;
 }

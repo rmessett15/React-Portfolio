@@ -1,13 +1,14 @@
 import React from "react";
+import './Navigation.css';
 
-function Navigation({ currentPage, handlePageChange }) {
+function Navigation({ currentPage, setCurrentPage }) {
   return (
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
+          id="nav-link"
           href="#about"
-          onClick={() => handlePageChange("About")}
-
+          onClick={() => setCurrentPage("About")}
           className={currentPage === "About" ? "nav-link active" : "nav-link"}
         >
           About
@@ -15,19 +16,21 @@ function Navigation({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
+          id="nav-link"
           href="#portfolio"
-          onClick={() => handlePageChange("Portfolio")}
-
-          className={currentPage === "Portfolio" ? "nav-link active" : "nav-link"}
+          onClick={() => setCurrentPage("Portfolio")}
+          className={
+            currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+          }
         >
           Portfolio
         </a>
       </li>
       <li className="nav-item">
         <a
+          id="nav-link"
           href="#Contact"
-          onClick={() => handlePageChange("Contact")}
-
+          onClick={() => setCurrentPage("Contact")}
           className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
         >
           Contact
@@ -35,9 +38,9 @@ function Navigation({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
+          id="nav-link"
           href="#resume"
-
-          onClick={() => handlePageChange("Resume")}
+          onClick={() => setCurrentPage("Resume")}
           className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
         >
           Resume

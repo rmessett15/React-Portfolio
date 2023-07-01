@@ -22,8 +22,8 @@ export default function Contact() {
             />
           </MenuItem>
           <MenuItem>
-            {/* <TextField id="outlined-basic" label="Message" variant="outlined" /> */}
-            <TextareaAutosize />
+            <TextField id="outlined-basic" label="Message" variant="outlined" />
+            {/* <TextareaAutosize /> */}
           </MenuItem>
           <MenuItem>
             <Button xs={{width: "100%"}} variant="contained">Submit</Button>

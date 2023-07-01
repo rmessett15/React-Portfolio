@@ -1,5 +1,12 @@
 #hero {
-    width: "1421px";
-    height: "100vh";
-    background-image: url(../../../images/HeroImage.png);
+    overflow: hidden;
+    width: 100vw;
+    height: auto;
+}
+
+#hero img {
+    object-fit: contain;
+    object-position: center;
+    max-width: 100%;
+    height: auto;
 }
