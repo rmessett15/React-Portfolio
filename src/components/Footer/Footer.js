@@ -14,9 +14,9 @@ import "./Footer.css";
 
 const Footer = () => {
     return (
-      <div>
-        <Grid container sx={{ color: "text.primary" }}>
-          <Grid item xs={4}>
+      <div style={{paddingTop: '20px', paddingBottom: '20px'}}>
+        <Grid style={{display: "flex", justifyContent: "center"}}container sx={{ color: "text.primary" }}>
+          <Grid style={{display: "flex", justifyContent: "space-evenly"}} item xs={4}>
             <LinkedInIcon
               id="icon"
               sx={{ fontSize: 50 }}

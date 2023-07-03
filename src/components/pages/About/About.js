@@ -7,20 +7,25 @@ import CardMedia from "@mui/material/CardMedia";
 export default function About() {
   return (
     <>
-      <div id="hero">
+      {/* <div id="hero">
         <img src={hero} />
-      </div>
-      {/* <div className="image-container">
-          <CardMedia
-              component="img"
-              className="color-img"
-              style={{height: '60vh', width: '50%', margin:'0 auto'}}
-              image={hero}
-              alt="About Me"
-          />
       </div> */}
+      <div className="image-container">
+        <CardMedia
+          component="img"
+          className="color-img"
+          style={{
+            height: "auto",
+            width: "50%",
+            margin: "0 auto",
+            paddingTop: "20px",
+          }}
+          image={hero}
+          alt="About Me"
+        />
+      </div>
 
-      <div>
+      <div style={{ width: '70%', margin: '0 auto' }}>
         <h1 id="about-me-title">About Me</h1>
         <p>
           Nunc pharetra finibus est at efficitur. Praesent sed congue diam.

@@ -47,8 +47,8 @@ export function Project ({project}) {
 
 export default function Work() {
   return (
-    <div>
-      <h1>Portfolio</h1>
+    <div style={{paddingLeft: '50px', paddingRight: '50px'}}>
+      <h1 style={{display: 'flex', justifyContent: 'center'}}>Portfolio</h1>
       <Grid
         container
         spacing={{ xs: 2, md: 3 }}
