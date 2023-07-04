@@ -13,36 +13,36 @@ import { projects } from "../../../projects";
 
 export function Project ({project}) {
   return (
-              <Grid item xs={4}>
-            {/* <div id="project">
+    <Grid item xs={4} style={{ display: "flex", justifyContent: "center" }}>
+      {/* <div id="project">
             <h2 id="projTitle">Dude Where's My Show</h2>
           </div> */}
-            <Card sx={{ maxWidth: 345 }}>
-              <CardMedia
-                component="img"
-                alt="green iguana"
-                height="140"
-                image={project.imageLink}
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  {project.projectTitle}
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  {project.description}
-                </Typography>
-              </CardContent>
-              <CardActions>
-                <Button href={project.liveLink} size="small">
-                  Live URL
-                </Button>
-                <Button href={project.gitHub} size="small">
-                  GitHub
-                </Button>
-              </CardActions>
-            </Card>
-          </Grid>
-  )
+      <Card sx={{ maxWidth: 345 }}>
+        <CardMedia
+          component="img"
+          alt="green iguana"
+          height="140"
+          image={project.imageLink}
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            {project.projectTitle}
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            {project.description}
+          </Typography>
+        </CardContent>
+        <CardActions>
+          <Button href={project.liveLink} size="small">
+            Live URL
+          </Button>
+          <Button href={project.gitHub} size="small">
+            GitHub
+          </Button>
+        </CardActions>
+      </Card>
+    </Grid>
+  );
 }
 
 export default function Work() {
