@@ -3,7 +3,7 @@ import './Navigation.css';
 
 function Navigation({ currentPage, setCurrentPage }) {
   return (
-    <ul className="nav nav-tabs" style={{paddingRight: '27px', paddingTop: '22px'}}>
+    <ul className="nav nav-tabs" style={{paddingRight: '35px', paddingTop: '22px'}}>
       <li className="nav-item">
         <a
           id="nav-link"
