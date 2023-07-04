@@ -10,3 +10,7 @@
     color: #EBDFCC;
 }
 
+#nav-link.active {
+    color: #DB791A;
+}
+
