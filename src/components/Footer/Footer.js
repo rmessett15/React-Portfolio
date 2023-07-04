@@ -2,6 +2,7 @@ import React from "react";
 import Grid from "@mui/material/Grid";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from "@mui/icons-material/GitHub";
+import TwitterIcon from "@mui/icons-material/Twitter";
 import EmailIcon from "@mui/icons-material/Email";
 import "./Footer.css";
 
@@ -14,9 +15,17 @@ import "./Footer.css";
 
 const Footer = () => {
     return (
-      <div style={{paddingTop: '20px', paddingBottom: '20px'}}>
-        <Grid style={{display: "flex", justifyContent: "center"}}container sx={{ color: "text.primary" }}>
-          <Grid style={{display: "flex", justifyContent: "space-evenly"}} item xs={4}>
+      <div style={{ paddingTop: "20px", paddingBottom: "20px" }}>
+        <Grid
+          style={{ display: "flex", justifyContent: "center" }}
+          container
+          sx={{ color: "text.primary" }}
+        >
+          <Grid
+            style={{ display: "flex", justifyContent: "space-evenly" }}
+            item
+            xs={4}
+          >
             <LinkedInIcon
               id="icon"
               sx={{ fontSize: 50 }}
@@ -30,6 +39,13 @@ const Footer = () => {
               sx={{ fontSize: 50 }}
               onClick={(event) =>
                 (window.location.href = "https://github.com/rmessett15")
+              }
+            />
+            <TwitterIcon
+              id="icon"
+              sx={{ fontSize: 50 }}
+              onClick={(event) =>
+                (window.location.href = "https://twitter.com/rmessett15")
               }
             />
             <EmailIcon
