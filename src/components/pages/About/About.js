@@ -25,16 +25,25 @@ export default function About() {
         />
       </div>
 
-      <div style={{ width: '70%', margin: '0 auto' }}>
+      <div style={{ width: "70%", margin: "0 auto" }}>
         <h1 id="about-me-title">About Me</h1>
         <p>
-          Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-          mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-          lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-          imperdiet. Praesent euismod mi justo, faucibus scelerisque risus
-          cursus in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit
-          at.
+          Driven, committed, and agile Full Stack Web Developer with a
+          background in geology and finance. Attended Trilogy bootcamp, hosted
+          by the University of Texas earning my certificate in full stack web
+          development. Highly personable, with innate ability to network with
+          others and develop strong working relationships. Motivated by
+          challenges and highly competitive. Extreme eagerness to learn and
+          break into the field of tech.
+        </p>
+        <p>
+          Growing up in Boulder, Colorado I cultivated a love of the outdoors... 
+        </p>
+        <p>
+          My free time consists mainly of adrenaline seeking activities, travel, and various hobbies picked up over the years such as scuba diving, skiing, and skydiving.
+        </p>
+        <p>
+          I would love to connect!
         </p>
       </div>
     </>
