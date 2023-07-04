@@ -77,9 +77,41 @@ export default function Resume() {
 
     <Box>
       <div>
-        <a href={PdfFile} download="MyResumé" target="_blank" style={{display: 'flex', justifyContent: 'center'}}>
+        <a
+          href={PdfFile}
+          download="MyResumé"
+          target="_blank"
+          style={{ display: "flex", justifyContent: "center" }}
+          rel="noreferrer"
+        >
           <Button>Click Here to Download My Resume</Button>
         </a>
+        <h2 style={{ display: "flex", justifyContent: "center" }}>
+          Front-end Proficiencies
+        </h2>
+        <p style={{ display: "flex", justifyContent: "center" }}>
+          - HTML
+          <br></br>- CSS
+          <br></br>- JavaScript
+          <br></br>- JQuery
+          <br></br>- Responsive Design
+          <br></br>- React
+          <br></br>- Bootstrap
+        </p>
+        <h2 style={{ display: "flex", justifyContent: "center" }}>
+          Back-end Proficiencies
+        </h2>
+        <p style={{ display: "flex", justifyContent: "center" }}>
+          - HTML
+          <br></br>- API's
+          <br></br>- Node
+          <br></br>- Express
+          <br></br>- MySQL, Sequelize
+          <br></br>- MongoDB, Mongoose
+          <br></br>- Bootstrap
+          <br></br>- REST
+          <br></br>- GraphQL
+        </p>
       </div>
     </Box>
   );
