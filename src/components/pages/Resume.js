@@ -2,6 +2,30 @@ import React from "react";
 import resume1 from "../../images/resume1.png"
 import resume2 from "../../images/resume2.png";
 import Box from "@mui/material/Box"
+import Button from "@mui/material/Button";
+import { useState } from "react";
+import { Document, Page } from "react-pdf";
+import PdfFile from "../../Resumé.pdf";
+
+// function MyApp() {
+//   const [numPages, setNumPages] = useState(null);
+//   const [pageNumber, setPageNumber] = useState(1);
+
+//   function onDocumentLoadSuccess({ numPages }) {
+//     setNumPages(numPages);
+//   }
+
+//   return (
+//     <div>
+//       <Document file="somefile.pdf" onLoadSuccess={onDocumentLoadSuccess}>
+//         <Page pageNumber={pageNumber} />
+//       </Document>
+//       <p>
+//         Page {pageNumber} of {numPages}
+//       </p>
+//     </div>
+//   );
+// }
 
 export default function Resume() {
   return (
@@ -24,30 +48,38 @@ export default function Resume() {
     //   </p>
     // </div>
 
-    <Box sx={{ flexGrow: 1 }}>
+    // <Box sx={{ flexGrow: 1 }}>
+    //   <div>
+    //     <h1 style={{display: 'flex', justifyContent: 'center'}}>My Resume</h1>
+    //     <img
+    //       src={resume1}
+    //       alt="Resume"
+    //       style={{
+    //         width: "-webkit-fill-available",
+    //         height: "auto",
+    //         paddingLeft: "350px",
+    //         paddingRight: "350px",
+    //       }}
+    //     />
+    //     <br></br>
+    //     <img
+    //       src={resume2}
+    //       alt="Resume"
+    //       style={{
+    //         width: "-webkit-fill-available",
+    //         height: "auto",
+    //         paddingLeft: "350px",
+    //         paddingRight: "350px",
+    //       }}
+    //     />
+    //   </div>
+    // </Box>
+
+    <Box>
       <div>
-        <h1 style={{display: 'flex', justifyContent: 'center'}}>My Resume</h1>
-        <img
-          src={resume1}
-          alt="Resume"
-          style={{
-            width: "-webkit-fill-available",
-            height: "auto",
-            paddingLeft: "350px",
-            paddingRight: "350px",
-          }}
-        />
-        <br></br>
-        <img
-          src={resume2}
-          alt="Resume"
-          style={{
-            width: "-webkit-fill-available",
-            height: "auto",
-            paddingLeft: "350px",
-            paddingRight: "350px",
-          }}
-        />
+        <a href={PdfFile} download="MyResumé" target="_blank" style={{display: 'flex', justifyContent: 'center'}}>
+          <Button>Click Here to Download My Resume</Button>
+        </a>
       </div>
     </Box>
   );
