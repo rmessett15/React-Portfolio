@@ -89,7 +89,13 @@ export default function Resume() {
         <h2 style={{ display: "flex", justifyContent: "center" }}>
           Front-end Proficiencies
         </h2>
-        <p style={{ display: "flex", justifyContent: "center" }}>
+        <p
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            paddingRight: "100px",
+          }}
+        >
           - HTML
           <br></br>- CSS
           <br></br>- JavaScript
@@ -101,7 +107,13 @@ export default function Resume() {
         <h2 style={{ display: "flex", justifyContent: "center" }}>
           Back-end Proficiencies
         </h2>
-        <p style={{ display: "flex", justifyContent: "center" }}>
+        <p
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            paddingRight: "80px",
+          }}
+        >
           - HTML
           <br></br>- API's
           <br></br>- Node
