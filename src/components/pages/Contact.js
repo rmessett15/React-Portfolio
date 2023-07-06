@@ -47,13 +47,10 @@ export default function Contact() {
           </MenuItem>
           <MenuItem style={{ justifyContent: "center" }}>
             <Button
+              id="button"
               className="pop-on-hover"
               xs={{ width: "100%" }}
               variant="contained"
-              style={{
-                backgroundColor: "#DB791A",
-                color: "floralwhite",
-              }}
             >
               Submit
             </Button>

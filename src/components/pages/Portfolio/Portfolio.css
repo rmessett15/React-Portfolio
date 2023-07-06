@@ -19,10 +19,10 @@ div#project {
     color: white;
 }
 
-/* #button:hover {
+#button:hover {
     background-color: #E99D51;
     color: white;
-} */
+}
 
 @-webkit-keyframes pop-on-hover {
     50% {
