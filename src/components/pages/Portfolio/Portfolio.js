@@ -17,10 +17,10 @@ export function Project ({project}) {
       {/* <div id="project">
             <h2 id="projTitle">Dude Where's My Show</h2>
           </div> */}
-      <Card sx={{ maxWidth: 345 }}>
+      <Card sx={{ maxWidth: 345 }} >
         <CardMedia
           component="img"
-          alt="green iguana"
+          alt="displayed projects with associated links"
           height="140"
           image={project.imageLink}
         />

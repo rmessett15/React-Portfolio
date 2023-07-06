@@ -89,7 +89,7 @@ export default function Resume() {
           }}
           rel="noreferrer"
         >
-          <Button className="pop-on-hover" style={{ backgroundColor: "#DB791A", color: "#EBDFCC" }}>
+          <Button className="pop-on-hover" style={{ backgroundColor: "#DB791A", color: "floralwhite" }}>
             Click Here to Download My Resume
           </Button>
         </a>

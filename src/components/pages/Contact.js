@@ -16,7 +16,12 @@ export default function Contact() {
       <form style={{ display: "flex", justifyContent: "center" }}>
         <Stack spacing={2}>
           <MenuItem>
-            <TextField id="outlined-basic" label="Name" variant="outlined" />
+            <TextField
+              id="outlined-basic"
+              label="Name"
+              variant="outlined"
+              style={{ backgroundColor: "floralwhite" }}
+            />
           </MenuItem>
           <MenuItem>
             {" "}
@@ -24,19 +29,26 @@ export default function Contact() {
               id="outlined-basic"
               label="Email Address"
               variant="outlined"
+              style={{ backgroundColor: "floralwhite" }}
             />
           </MenuItem>
           <MenuItem>
-            <TextField id="outlined-basic" label="Message" variant="outlined" />
+            <TextField
+              id="outlined-basic"
+              label="Message"
+              variant="outlined"
+              style={{ backgroundColor: "floralwhite" }}
+            />
             {/* <TextareaAutosize /> */}
           </MenuItem>
           <MenuItem style={{ justifyContent: "center" }}>
-            <Button className="pop-on-hover"
+            <Button
+              className="pop-on-hover"
               xs={{ width: "100%" }}
               variant="contained"
               style={{
                 backgroundColor: "#DB791A",
-                color: "#EBDFCC",
+                color: "floralwhite",
               }}
             >
               Submit
