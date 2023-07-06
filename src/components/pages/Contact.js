@@ -20,7 +20,7 @@ export default function Contact() {
               id="outlined-basic"
               label="Name"
               variant="outlined"
-              style={{ backgroundColor: "floralwhite" }}
+              style={{ backgroundColor: "floralwhite", width: "343px" }}
             />
           </MenuItem>
           <MenuItem>
@@ -29,11 +29,13 @@ export default function Contact() {
               id="outlined-basic"
               label="Email Address"
               variant="outlined"
-              style={{ backgroundColor: "floralwhite" }}
+              style={{ backgroundColor: "floralwhite", width: "343px" }}
             />
           </MenuItem>
           <MenuItem>
-            <TextField
+            <textarea
+              rows="15"
+              cols="40"
               id="outlined-basic"
               label="Message"
               variant="outlined"
