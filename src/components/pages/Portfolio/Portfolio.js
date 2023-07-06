@@ -32,11 +32,23 @@ export function Project ({project}) {
             {project.description}
           </Typography>
         </CardContent>
-        <CardActions>
-          <Button href={project.liveLink} size="small">
+        <CardActions style={{ justifyContent: "center" }}>
+          <Button
+            id="button"
+            className="pop-on-hover"
+            href={project.liveLink}
+            size="small"
+            // style={{ backgroundColor: "#DB791A", color: "white" }}
+          >
             Live URL
           </Button>
-          <Button href={project.gitHub} size="small">
+          <Button
+            id="button"
+            className="pop-on-hover"
+            href={project.gitHub}
+            size="small"
+            // style={{ backgroundColor: "#DB791A", color: "white" }}
+          >
             GitHub
           </Button>
         </CardActions>

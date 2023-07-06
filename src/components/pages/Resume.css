@@ -1,29 +1,3 @@
-div#project {
-    display:flex;
-    height: 23vh;
-    background-image: url(../../../images/DudeWheresMyShow.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-#project:hover {
-    filter: blur(4px);
-}
-
-#projTitle {
-    display: hidden !important;
-}
-
-#button {
-    background-color: #DB791A;
-    color: white;
-}
-
-/* #button:hover {
-    background-color: #E99D51;
-    color: white;
-} */
-
 @-webkit-keyframes pop-on-hover {
     50% {
         -webkit-transform: scale(1.2);
@@ -58,7 +32,3 @@ div#project {
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
 }
-
-/* :global(#project:hover)#project h2 {
-    visibility: visible;
-} */

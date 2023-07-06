@@ -6,6 +6,7 @@ import Button from "@mui/material/Button";
 import { useState } from "react";
 import { Document, Page } from "react-pdf";
 import PdfFile from "../../Resumé.pdf";
+import "./Resume.css";
 
 // function MyApp() {
 //   const [numPages, setNumPages] = useState(null);
@@ -81,12 +82,24 @@ export default function Resume() {
           href={PdfFile}
           download="MyResumé"
           target="_blank"
-          style={{ display: "flex", justifyContent: "center" }}
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            paddingTop: "25px",
+          }}
           rel="noreferrer"
         >
-          <Button>Click Here to Download My Resume</Button>
+          <Button className="pop-on-hover" style={{ backgroundColor: "#DB791A", color: "#EBDFCC" }}>
+            Click Here to Download My Resume
+          </Button>
         </a>
-        <h2 style={{ display: "flex", justifyContent: "center" }}>
+        <h2
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            textDecoration: "underline"
+          }}
+        >
           Front-end Proficiencies
         </h2>
         <p
@@ -104,7 +117,13 @@ export default function Resume() {
           <br></br>- React
           <br></br>- Bootstrap
         </p>
-        <h2 style={{ display: "flex", justifyContent: "center" }}>
+        <h2
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            textDecoration: "underline"
+          }}
+        >
           Back-end Proficiencies
         </h2>
         <p

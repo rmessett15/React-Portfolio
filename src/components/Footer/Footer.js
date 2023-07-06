@@ -28,6 +28,7 @@ const Footer = () => {
           >
             <LinkedInIcon
               id="icon"
+              className="pop-on-hover"
               sx={{ fontSize: 50 }}
               onClick={(event) =>
                 (window.location.href =
@@ -36,6 +37,7 @@ const Footer = () => {
             />
             <GitHubIcon
               id="icon"
+              className="pop-on-hover"
               sx={{ fontSize: 50 }}
               onClick={(event) =>
                 (window.location.href = "https://github.com/rmessett15")
@@ -43,6 +45,7 @@ const Footer = () => {
             />
             <TwitterIcon
               id="icon"
+              className="pop-on-hover"
               sx={{ fontSize: 50 }}
               onClick={(event) =>
                 (window.location.href = "https://twitter.com/rmessett15")
@@ -50,6 +53,7 @@ const Footer = () => {
             />
             <EmailIcon
               id="icon"
+              className="pop-on-hover"
               sx={{ fontSize: 50 }}
               onClick={(event) =>
                 (window.location.href = "mailto:rmessett15@gmail.com")
