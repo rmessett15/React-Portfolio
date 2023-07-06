@@ -42,9 +42,8 @@ export default function Contact() {
               label="Message"
               variant="outlined"
               style={{ backgroundColor: "floralwhite" }}
-            >
-              Type your message here!
-            </textarea>
+              placeholder="Type your message here!"
+            />
             {/* <TextareaAutosize /> */}
           </MenuItem>
           <MenuItem style={{ justifyContent: "center" }}>
