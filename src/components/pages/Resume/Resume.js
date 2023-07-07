@@ -1,11 +1,11 @@
 import React from "react";
-import resume1 from "../../images/resume1.png"
-import resume2 from "../../images/resume2.png";
+// import resume1 from "../../../images/resume1.png"
+// import resume2 from "../../../images/resume2.png";
 import Box from "@mui/material/Box"
 import Button from "@mui/material/Button";
-import { useState } from "react";
-import { Document, Page } from "react-pdf";
-import PdfFile from "../../Resumé.pdf";
+// import { useState } from "react";
+// import { Document, Page } from "react-pdf";
+import PdfFile from "../../../Resumé.pdf";
 import "./Resume.css";
 
 // function MyApp() {

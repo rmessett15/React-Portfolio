@@ -1,7 +1,6 @@
 import React from "react";
 // import logo from "./logo.svg";
 import "./App.css";
-// import OrangeBoxes from "./components/orangeBoxes";
 import PortfolioContainer from "./components/PortfolioContainer";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
