@@ -33,12 +33,12 @@
     animation-iteration-count: 1;
 }
 
-#button {
+#contact-button {
     background-color: #DB791A;
     color: floralwhite;
 }
 
-#button:hover {
+#contact-button:hover {
     background-color: #E99D51;
     color: floralwhite;
 }

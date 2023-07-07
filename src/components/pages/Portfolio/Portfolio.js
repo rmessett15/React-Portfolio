@@ -34,7 +34,7 @@ export function Project ({project}) {
         </CardContent>
         <CardActions style={{ justifyContent: "center" }}>
           <Button
-            id="button"
+            id="portfolio-button"
             className="pop-on-hover"
             href={project.liveLink}
             size="small"
@@ -43,7 +43,7 @@ export function Project ({project}) {
             Live URL
           </Button>
           <Button
-            id="button"
+            id="portfolio-button"
             className="pop-on-hover"
             href={project.gitHub}
             size="small"

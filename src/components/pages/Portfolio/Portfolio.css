@@ -14,12 +14,12 @@ div#project {
     display: hidden !important;
 }
 
-#button {
+#portfolio-button {
     background-color: #DB791A;
     color: white;
 }
 
-#button:hover {
+#portfolio-button:hover {
     background-color: #E99D51;
     color: white;
 }

@@ -89,7 +89,7 @@ export default function Resume() {
           }}
           rel="noreferrer"
         >
-          <Button id="button" className="pop-on-hover">
+          <Button id="resume-button" className="pop-on-hover">
             Click Here to Download My Resume
           </Button>
         </a>
