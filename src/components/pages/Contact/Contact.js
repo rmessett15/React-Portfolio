@@ -113,7 +113,7 @@ export default function Contact() {
             {/* <TextareaAutosize /> */}
           </MenuItem>
           {errorMessage && (
-            <div>
+            <div style={{ display: "flex", justifyContent: "center" }}>
               <p className="error-text">{errorMessage}</p>
             </div>
           )}
