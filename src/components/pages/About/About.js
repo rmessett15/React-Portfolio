@@ -27,7 +27,7 @@ export default function About() {
 
       <div style={{ width: "70%", margin: "0 auto" }}>
         <h1 id="about-me-title">About Me</h1>
-        <p>
+        <p id="p-about">
           Driven, committed, and agile Full Stack Web Developer with a
           background in geology and finance. Attended Trilogy bootcamp, hosted
           by the University of Texas earning my certificate in full stack web
@@ -36,15 +36,15 @@ export default function About() {
           challenges and highly competitive. Extreme eagerness to learn and
           break into the field of tech.
         </p>
-        <p>
-          Growing up in Boulder, Colorado I cultivated a love of the outdoors... 
+        <p id="p-about">
+          Growing up in Boulder, Colorado I cultivated a love of the outdoors...
         </p>
-        <p>
-          My free time consists mainly of adrenaline seeking activities, travel, and various hobbies picked up over the years such as scuba diving, skiing, and skydiving.
+        <p id="p-about">
+          My free time consists mainly of adrenaline seeking activities, travel,
+          and various hobbies picked up over the years such as scuba diving,
+          skiing, and skydiving.
         </p>
-        <p>
-          I would love to connect!
-        </p>
+        <p id="p-about">I would love to connect!</p>
       </div>
     </>
   );

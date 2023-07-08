@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { TextField, dividerClasses } from "@mui/material";
 import { Button, MenuItem } from "@mui/material";
 import Stack from "@mui/material/Stack";
-import { TextareaAutosize } from "@mui/material";
+// import { TextareaAutosize } from "@mui/material";
 import "./Contact.css";
 
 export default function Contact() {
@@ -36,13 +36,17 @@ export default function Contact() {
         setEmail("");
         setErrorMessage(`Please enter a valid email address. This field is required.`);
       }
-      // if (!value.includes("@")) {
-      //   setErrorMessage(`Please enter a valid email`);
-      // }
+      const pattern = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/
+      console.log(!pattern.test(value));
+      if (!pattern.test(value)) {
+        setErrorMessage(`Please enter a valid email`);
+      } else {
+        setErrorMessage('');
+      }
     }
-    if (value.length > 0) {
-      setErrorMessage(``);
-    }
+    // if (value.length > 0) {
+    //   setErrorMessage(``);
+    // }
   };
 
   const validateMessage = (e) => {

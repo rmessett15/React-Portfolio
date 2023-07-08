@@ -14,3 +14,12 @@
     color: #DB791A;
 }
 
+/* .navButton.active {
+    color: #DB791A;
+} */
+
+@media (max-width: 589px) {
+    .nav {
+        flex-direction: column;
+    }
+}

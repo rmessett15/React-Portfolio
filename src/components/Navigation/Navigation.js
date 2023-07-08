@@ -1,9 +1,38 @@
 import React from "react";
-import './Navigation.css';
+import "./Navigation.css";
+import Box from "@mui/material/Box";
+import { Button } from "@mui/material";
+import useTab from "@mui/base/useTab";
 
-function Navigation({ currentPage, setCurrentPage }) {
+const pages = ["About", "Portfolio", "Contact", "Resume"];
+
+function Navigation({ currentPage, setCurrentPage, handleCloseNavMenu }) {
   return (
-    <ul className="nav nav-tabs" style={{paddingRight: '35px', paddingTop: '22px'}}>
+    // <Box
+    //   sx={{
+    //     flexGrow: 1,
+    //     display: { xs: "none", md: "flex" },
+    //     justifyContent: { md: "end" },
+    //   }}
+    // >
+    //   {pages.map((page) => (
+    //     <Button
+    //       key={page}
+    //       onClick={() => {
+    //         setCurrentPage(page);
+    //         handleCloseNavMenu();
+    //       }}
+    //       sx={{ my: 2, color: "#EBDFCC", display: "block" }}
+    //     >
+    //       {page}
+    //     </Button>
+    //   ))}
+    // </Box>
+
+    <ul
+      className="nav nav-tabs"
+      style={{ paddingRight: "35px", paddingTop: "22px" }}
+    >
       <li className="nav-item">
         <a
           id="nav-link"

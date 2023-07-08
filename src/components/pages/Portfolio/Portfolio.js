@@ -69,8 +69,8 @@ export default function Work() {
         {Array.from(Array(6)).map((_, index) => (
           <Grid item xs={2} sm={4} md={4} key={index}></Grid>
         ))}
-        {projects.map((project) => (
-          <Project project={project} />
+        {projects.map((project, index) => (
+          <Project project={project} key={index}/>
         ))}
       </Grid>
     </div>
