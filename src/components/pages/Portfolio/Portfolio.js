@@ -17,7 +17,7 @@ export function Project ({project}) {
       {/* <div id="project">
             <h2 id="projTitle">Dude Where's My Show</h2>
           </div> */}
-      <Card sx={{ maxWidth: 345 }} >
+      <Card sx={{ maxWidth: 345 }} style={{backgroundColor: 'floralwhite'}} >
         <CardMedia
           component="img"
           alt="displayed projects with associated links"
