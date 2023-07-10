@@ -12,6 +12,13 @@
 
 #nav-link.active {
     color: #DB791A;
+    display: flex;
+    justify-content: end;
+}
+
+#nav-link {
+    display: flex;
+    justify-content: end;
 }
 
 /* .navButton.active {
