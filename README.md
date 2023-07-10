@@ -52,7 +52,13 @@ https://drive.google.com/file/d/1cBZTOKL3T1VV4NQSmrrQKnCZvbiZaKwQ/view
 
 ## Screenshots
 
+![Screenshot1-week-20-challenge](https://github.com/rmessett15/React-Portfolio/assets/120127903/717a19c3-a533-4889-9b66-250c33589399)
 
+![Screenshot2-week-20-challenge](https://github.com/rmessett15/React-Portfolio/assets/120127903/9a35eed9-4ce6-42ad-ade7-876e00df38e7)
+
+![Screenshot3-week-20-challenge](https://github.com/rmessett15/React-Portfolio/assets/120127903/cc28d922-21fd-4783-ba57-6655d738f893)
+
+![Screenshot4-week-20-challenge](https://github.com/rmessett15/React-Portfolio/assets/120127903/65842055-1348-45e9-933c-567049faba45)
 
 ## Technologies Used
 
