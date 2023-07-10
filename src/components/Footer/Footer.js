@@ -15,7 +15,7 @@ import "./Footer.css";
 
 const Footer = () => {
     return (
-      <div style={{ paddingTop: "20px", paddingBottom: "20px" }}>
+      <div style={{ paddingTop: "30px", paddingBottom: "30px" }}>
         <Grid
           style={{ display: "flex", justifyContent: "center" }}
           container
