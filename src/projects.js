@@ -1,3 +1,5 @@
+// Array of projects to be rendered on portfolio page
+
 export const projects = [
   {
     projectTitle: "Dude Where's My Show",

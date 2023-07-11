@@ -1,3 +1,4 @@
+// Imports
 import React from "react";
 import "./Navigation.css";
 import Box from "@mui/material/Box";
@@ -6,6 +7,7 @@ import useTab from "@mui/base/useTab";
 
 const pages = ["About", "Portfolio", "Contact", "Resume"];
 
+// Function that renders nav links and calls setCurrentPage allowing state to be changed
 function Navigation({ currentPage, setCurrentPage, handleCloseNavMenu }) {
   return (
     <ul
@@ -81,4 +83,5 @@ function Navigation({ currentPage, setCurrentPage, handleCloseNavMenu }) {
   );
 }
 
+// Export
 export default Navigation;

@@ -1,3 +1,4 @@
+// Imports
 import React from "react";
 import Grid from "@mui/material/Grid";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -6,6 +7,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import EmailIcon from "@mui/icons-material/Email";
 import "./Footer.css";
 
+// Function that renders the footer
 const Footer = () => {
   return (
     <div style={{ paddingTop: "30px", paddingBottom: "30px" }}>
@@ -58,4 +60,5 @@ const Footer = () => {
   );
 };
 
+// Export
 export default Footer;

@@ -1,3 +1,4 @@
+//Imports
 import React from "react";
 // import resume1 from "../../../images/resume1.png"
 // import resume2 from "../../../images/resume2.png";
@@ -6,6 +7,7 @@ import Button from "@mui/material/Button";
 import PdfFile from "../../../Resumé.pdf";
 import "./Resume.css";
 
+// Function that renders the downloadable resume, proficiencies & exports
 export default function Resume() {
   return (
     <Box>

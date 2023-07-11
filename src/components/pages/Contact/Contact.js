@@ -1,15 +1,18 @@
+// Imports
 import React, { useState } from "react";
 import { TextField, dividerClasses } from "@mui/material";
 import { Button, MenuItem } from "@mui/material";
 import Stack from "@mui/material/Stack";
 import "./Contact.css";
 
+// Exports
 export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
+  // Validates name
   const validateName = (e) => {
     console.log(e);
     const { name, value } = e.target;
@@ -25,6 +28,7 @@ export default function Contact() {
     }
   };
 
+  // Validates email
   const validateEmail = (e) => {
     e.preventDefault();
     console.log(e);
@@ -47,6 +51,7 @@ export default function Contact() {
     }
   };
 
+  // Validates message
   const validateMessage = (e) => {
     console.log(e);
     const { name, value } = e.target;
@@ -62,6 +67,7 @@ export default function Contact() {
     }
   };
 
+  // Renders contact form
   return (
     <>
       <div>
