@@ -42,7 +42,7 @@ Challenges faced when building this application resulted mainly from mixing CSS 
 
 ## Live URL
 
-https://ryan-messett-portfolio-1f907eb665ba.herokuapp.com/
+[Link to Ryan Messett's Portfolio](https://ryan-messett-portfolio-1f907eb665ba.herokuapp.com/)
 
 ## Screenshots
 
