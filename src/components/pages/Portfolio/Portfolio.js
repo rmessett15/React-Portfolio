@@ -1,23 +1,18 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
-// import Item from "@mui/material";
-import './Portfolio.css'
-// import Image1 from '../../../images/DudeWheresMyShow.png'
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
+import "./Portfolio.css";
+import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
 import { projects } from "../../../projects";
 
-export function Project ({project}) {
+export function Project({ project }) {
   return (
     <Grid item xs={4} style={{ display: "flex", justifyContent: "center" }}>
-      {/* <div id="project">
-            <h2 id="projTitle">Dude Where's My Show</h2>
-          </div> */}
-      <Card sx={{ maxWidth: 345 }} style={{backgroundColor: 'floralwhite'}} >
+      <Card sx={{ maxWidth: 345 }} style={{ backgroundColor: "floralwhite" }}>
         <CardMedia
           component="img"
           alt="displayed projects with associated links"
@@ -38,7 +33,6 @@ export function Project ({project}) {
             className="pop-on-hover"
             href={project.liveLink}
             size="small"
-            // style={{ backgroundColor: "#DB791A", color: "white" }}
           >
             Live URL
           </Button>
@@ -47,7 +41,6 @@ export function Project ({project}) {
             className="pop-on-hover"
             href={project.gitHub}
             size="small"
-            // style={{ backgroundColor: "#DB791A", color: "white" }}
           >
             GitHub
           </Button>
@@ -70,11 +63,9 @@ export default function Work() {
           <Grid item xs={2} sm={4} md={4} key={index}></Grid>
         ))}
         {projects.map((project, index) => (
-          <Project project={project} key={index}/>
+          <Project project={project} key={index} />
         ))}
       </Grid>
     </div>
   );
 }
-
-

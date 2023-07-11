@@ -1,15 +1,17 @@
-// import React from "react";
+import React from "react";
 import Navigation from "../Navigation/Navigation";
-import './Header.css';
+import "./Header.css";
 
-export default function Header ({currentPage, setCurrentPage}) {
-    return (
-      <div className="headerParent" style={{ padding: '0px 0px 10px 43px' }}>
-        <p id="header-text">RYAN MESSETT</p>
-        <Navigation currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      </div>
-    );
+export default function Header({ currentPage, setCurrentPage }) {
+  return (
+    <div className="headerParent" style={{ padding: "0px 0px 10px 43px" }}>
+      <p id="header-text">RYAN MESSETT</p>
+      <Navigation currentPage={currentPage} setCurrentPage={setCurrentPage} />
+    </div>
+  );
 }
+
+// Below is an in progress new header and navbar which implements a hamburger menu
 
 // import * as React from "react";
 // import AppBar from "@mui/material/AppBar";
@@ -167,4 +169,5 @@ export default function Header ({currentPage, setCurrentPage}) {
 //     </AppBar>
 //   );
 // }
+
 // export default ResponsiveAppBar;

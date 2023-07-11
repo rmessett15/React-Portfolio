@@ -1,25 +1,21 @@
 #hero {
-    overflow: hidden;
-    width: 100vw;
-    height: auto;
+  overflow: hidden;
+  width: 100vw;
+  height: auto;
 }
 
 #hero img {
-    object-fit: contain;
-    object-position: center;
-    max-width: 100%;
-    height: auto;
+  object-fit: contain;
+  object-position: center;
+  max-width: 100%;
+  height: auto;
 }
 
 #about-me-title {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #p-about {
-    text-align: center;
+  text-align: center;
 }
-
-/* .image-container {
-    padding: 20px
-} */

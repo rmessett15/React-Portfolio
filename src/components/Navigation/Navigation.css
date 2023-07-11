@@ -1,32 +1,28 @@
 .nav {
-    display: flex;
-    list-style: none;
-    width: 40vw;
-    justify-content: space-between;
+  display: flex;
+  list-style: none;
+  width: 40vw;
+  justify-content: space-between;
 }
 
 #nav-link:visited {
-    text-decoration: none;
-    color: #EBDFCC;
+  text-decoration: none;
+  color: #ebdfcc;
 }
 
 #nav-link.active {
-    color: #DB791A;
-    display: flex;
-    justify-content: end;
+  color: #db791a;
+  display: flex;
+  justify-content: end;
 }
 
 #nav-link {
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content: end;
 }
 
-/* .navButton.active {
-    color: #DB791A;
-} */
-
 @media (max-width: 589px) {
-    .nav {
-        flex-direction: column;
-    }
+  .nav {
+    flex-direction: column;
+  }
 }

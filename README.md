@@ -44,7 +44,7 @@ Challenges faced when creating this application were the use of the handlebars t
 
 ## Live URL
 
-https://ryan-messett-portfolio.herokuapp.com/
+https://ryan-messett-portfolio-1f907eb665ba.herokuapp.com/
 
 ## Live Screen Recording of Application Functionality
 
