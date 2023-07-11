@@ -79,8 +79,8 @@ export default function Contact() {
         <Stack spacing={2}>
           <MenuItem>
             <TextField
-              value={name}
-              onChange={validateName}
+              defaultValue={name}
+              onBlur={validateName}
               id="outlined-basic"
               fullWidth
               label="Name"
@@ -93,8 +93,8 @@ export default function Contact() {
           <MenuItem>
             {" "}
             <TextField
-              value={email}
-              onChange={validateEmail}
+              defaultValue={email}
+              onBlur={validateEmail}
               id="outlined-basic"
               fullWidth
               label="Email Address"
@@ -106,8 +106,8 @@ export default function Contact() {
           </MenuItem>
           <MenuItem>
             <textarea
-              value={message}
-              onChange={validateMessage}
+              defaultValue={message}
+              onBlur={validateMessage}
               rows="15"
               cols="40"
               id="outlined-basic"
