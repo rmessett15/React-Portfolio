@@ -55,4 +55,13 @@ export const projects = [
     liveLink: "https://rmessett15.github.io/My-First-Website/",
     gitHub: "https://github.com/rmessett15/My-First-Website",
   },
+  {
+    projectTitle: "Schedaddy",
+    description:
+      "Your company's ultimate solution for modern employee scheduling. A full stack MERN application.",
+    imageLink:
+      "https://user-images.githubusercontent.com/120127903/256081146-e641ae45-88a0-404d-bed1-a8badc0f7637.png",
+    liveLink: "https://schedaddy-0dffdc6ab2cd.herokuapp.com/",
+    gitHub: "https://github.com/cmcnamara15/Schedaddy",
+  },
 ];
